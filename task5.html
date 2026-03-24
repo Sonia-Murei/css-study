@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .upper{
+            color:white;
+            padding:20px 50px;
+            height: 50%;
+            background:linear-gradient(rgba(128,0,128,0.7),
+            rgba(0,0,255,0.7)), url('mask.jpg'); 
+            background-size:cover;
+            background-position: center;           
+            border-radius:20px;
+        }
+        .upper .navbar{
+            display:flex;
+            justify-content: space-between;
+        }
+        .upper .navbar a{
+            text-decoration:none;
+            color:white;
+        }
+        .logo{
+            font-size:12px;
+            line-height: 0.4;
+        }
+        .logo p{
+            padding-left: 30px;
+        }
+        .upper .list {
+            list-style:none;
+            display:flex;
+            gap:20px;
+        }
+        .icons{
+            list-style:none;
+            display:flex;
+            gap:10px;
+        }
+        .text{
+            text-align: center;
+        }
+        .text h1{
+            font-size:50px
+        }
+        .text p{
+            margin-top:0px;
+        }
+        .text button{
+            background-color:palevioletred;
+            border-radius: 15px;
+            padding: 10px 20px;
+            border:none;
+            color:white;
+            font-weight: bold;
+        }
+        .lower{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .box{
+            width:350px;
+            height: 450px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 7px;
+            text-align:left;
+        }
+        .box .class{
+            width:100%;
+            border-radius: 10px;
+
+        }
+        .cards{
+            display: flex;
+            gap:40px;
+            width:80%;
+            margin: auto;
+        }
+        .rating{
+            display: flex;
+            align-items: center;
+            gap:120px;
+        }
+        .round {
+            border-radius: 50%;
+        }
+        .profile{
+            display:flex;
+            gap:15px;
+        
+        }
+        .price{
+            color:palevioletred;
+            font-weight: bold;
+        }
+        .name{
+            font-weight: bold;
+        }
+        .profession{
+            font-weight: bold;
+        }
+        .view a{
+            text-decoration: none;
+            color: palevioletred;
+        }
+        .view{
+            color:gray
+        }
+        .time{
+            display: flex;
+            gap:20px;
+            padding: 20px;
+            color:rgb(175, 179, 182);
+            align-items: baseline;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="upper">
+            <div class="navbar">
+                <div class="logo">
+                <h2><a href=""><i class="fa-regular fa-gem fa-xl" style="color: rgb(254, 96, 60);"></i>Study Course</a></h2>
+                <p>Journey to success</p>
+                </div>
+
+                <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <ul class="icons">
+                    <a href=""><li><i class="fa-solid fa-magnifying-glass fa-lg" style="color: rgb(228, 237, 255);"></i></li></a>
+                    <a href=""><li><i class="fa-solid fa-user fa-lg" style="color: rgb(228, 237, 255);"></i>Login</li></a>
+                    <a href=""><li><i class="fa-regular fa-moon fa-lg" style="color: rgb(228, 237, 255);"></i></li></a>
+
+                </ul>
+
+            </div>
+            <div class="text">
+                <h1>50% Discount on all Popular <br> Courses</h1>
+                <p>Take the first step to your journey to success with us</p>
+                <button>Ready to get started?</button>
+            </div>
+            <div class="curve"></div>
+
+        </div>
+
+
+        <div class="lower">
+            <h6>JOIN OUR LEARN COURSES</h6>
+            <h2>Featured Online Courses</h2>
+              <div class="cards">
+                <div class="box">
+                    <img class="class" src="classroom1.webp" alt="" height="200px" width="200px">
+                    <div class="rating">
+                    <p class="price">$35.00</p>
+                       <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-regular fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                      </div>  
+                      </div>
+                    <p>Open Programming Courses for <br> everyone: Python</p>
+                    <div class="time">
+                    <i class="fa-regular fa-clock fa-sm" style="color: rgb(175, 179, 182);"></i> 20 hrs
+                    <i class="fa-regular fa-user fa-sm" style="color: rgb(175, 179, 182);"></i>50
+                    </div>
+                    <div class="profile">
+                    <img class="round" src="person1.jpg" alt="" height="50px" width="50px">
+                    <p>by Olivia in Programming</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="class" src="classroom2.avif" alt="" height="200px" width="200px">
+                    <div class="rating">
+                    <p class="price">$0.00</p>
+                       <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-regular fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                      </div> 
+                      </div>
+                    <p>Learning to Write as a clean and professional Author</p>
+                    <div class="time">
+                    <i class="fa-regular fa-clock fa-sm" style="color: rgb(175, 179, 182);"></i> 20 hrs
+                    <i class="fa-regular fa-user fa-sm" style="color: rgb(175, 179, 182);"></i> 50
+                    </div>
+                    <div class="profile">
+                    <img class="round" src="person4.jfif" alt="" height="50px" width="50px">
+                    <p>by Isabella in Teaching</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="class" src="classroom3.avif" alt="" height="200px" width="200px">
+                    <div class="rating">
+                    <p class="price">$35.00</p>
+                       <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                        <i class="fa-regular fa-star fa-sm" style="color: rgb(5, 91, 160);"></i>
+                      </div> 
+                      </div>
+                    <p>Learn Master JQuery in a Short Period of Time</p>
+                    <div class="time">
+                    <i class="fa-regular fa-clock fa-sm" style="color: rgb(175, 179, 182);"></i> 20 hrs
+                    <i class="fa-regular fa-user fa-sm" style="color: rgb(175, 179, 182);"></i> 50
+                    </div>
+                    <div class="profile">
+                    <img class="round" src="person5.png" alt="" height="50px" width="50px">
+                    <p>by William in Programming</p>
+                    </div>
+                </div>
+
+              </div>
+              <div class="view">
+                    <p>Control your personal preference settings to get notified about <br> approriate courses <a href="" class="link">View All Courses</a> </p>
+              </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
